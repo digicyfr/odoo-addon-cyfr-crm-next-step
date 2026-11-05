@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"><title>CRM Next Step Queue</title></head>
+<head>
+  <meta charset="utf-8">
+  <title>CRM Next Step Queue for Odoo 19</title>
+</head>
 <body>
-<h1>CRM Next Step Queue</h1>
-<p>Review open leads and opportunities with no active activity or an overdue activity in one Odoo 19 CRM view.</p>
-<p>Filter by salesperson, team and company, then open the lead to use Odoo's standard activity planner. The queue respects existing CRM permissions and does not create duplicate tasks or send mail.</p>
-<p>Requires only the standard CRM module. Licensed under LGPL-3.</p>
+  <section class="container">
+    <h1>CRM Next Step Queue</h1>
+    <p class="lead">Find open leads and opportunities with no scheduled activity or an overdue activity.</p>
+    <p>Free, open-source Odoo 19 addon (LGPL-3). Requires the standard <code>crm</code> module.</p>
+    <h2>What it does</h2>
+    <ul>
+      <li>See a clear reason for each queue row: no scheduled activity or an overdue activity.</li>
+      <li>Filter existing CRM records by salesperson and sales team, with company filters in multi-company mode.</li>
+      <li>Open a lead and plan its next activity using standard Odoo CRM tools.</li>
+      <li>Use English or Polish screens, guides, and demo data.</li>
+    </ul>
+    <h2>See it in Odoo</h2>
+    <p>Open CRM → Sales → Next Step Queue to review leads and their next activity status.</p>
+    <img class="img-fluid" src="main_screenshot.png" width="1440" height="960" alt="CRM Next Step Queue in Odoo 19 showing leads with no scheduled activity and overdue activity reasons">
+    <h2>Compatibility and scope</h2>
+    <p>Tested on Odoo 19 Community. Enterprise compatibility remains unverified. This release does not include a digest, a configurable overdue threshold, or a contact-age indicator.</p>
+  </section>
 </body>
 </html>
